@@ -1,5 +1,4 @@
 FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
-RUN wget -qO https://nvidia.github.io/nvidia-docker/gpgkey | apt-key add -
 RUN apt-get update \
     && apt-get install -y wget \
                 vim \
